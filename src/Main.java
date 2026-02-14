@@ -26,7 +26,7 @@ public class Main {
                     System.out.print("Deposite um valor: ");
                     float deposito = scanner.nextFloat();
                     if (deposito<0) {
-                        System.out.print("Depósito negativo!");
+                        System.out.print("Digite um número positivo!");
                         break;
                     }
                     saldo+=deposito;
@@ -42,7 +42,7 @@ public class Main {
                         saldo-=saque;
                     }
                     else {
-                        System.out.print("Saldo negativo!");
+                        System.out.print("Digite um número positivo!");
                     }
                     break;
                 case 0:
